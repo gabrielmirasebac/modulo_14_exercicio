@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life is Feudal</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-3">
+        <div class="container">
+            <h1 class="section-title fw-bold m-0">Life is feudal</h1>
+            <button type="submit" class="btn navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav id="menu-navegacao" class="navbar-collapse collapse justify-content-end">
+                <ul class="nav nav-pills d-block d-md-flex" >
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-jogo" class="active nav-link section-title fs-6">
+                            <img src="imagens/icones/icons8-espada-100.png" alt="Espada">
+                            <span class="align-middle">Sobre o jogo</span>
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bolder">
+                        <a href="#habilidades" class="nav-link section-title fs-6 ps-1">
+                            <img src="imagens/icones/icons8-espada-64.png" alt="Espada e escudo" class="pt-1">
+                            <span class="align-middle">Habilidades</span>
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#ultimas-noticias" class="nav-link section-title fs-6 ps-1">
+                            <img src="imagens/icones/icons8-pergaminho-100.png" alt="Pergaminho" class="pt-1">
+                            <span class="align-middle">Últimas notícias</span>
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link section-title fs-6 ps-1">
+                            <img src="imagens/icones/icons8-poem-96.png" alt="Pergaminho e pena com tinta" class="pt-1">
+                            <span class="align-middle">Entre em contato</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-jogo" class="w-100">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="imagens/jogo/Guilda.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="imagens/jogo/05.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="imagens/jogo/12.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="imagens/jogo/07.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev" >
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next" >
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" class="active"></button>
+                </div>
+            </div>
+            <div class="pt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="imagens/jogo/19.jpg" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7 mt-1">
+                            <h2 class="section-title fw-bold">Sobre <span class="text-white">o jogo</span></h2>
+                            <p>
+                                Life is Feudal é um jogo de sandbox online que se passa em um ambiente medieval e oferece uma experiência de sobrevivência, construção e simulação em um mundo aberto. O jogo coloca os jogadores em um ambiente persistente e massivo, onde eles podem se aventurar sozinhos ou colaborar com outros jogadores para construir assentamentos, explorar vastos territórios e se envolver em um sistema econômico complexo.
+                            </p>
+                            <h3 class="section-title fw-bold">Principais <span class="text-white">caracteristicas</span></h3>
+                            <ul>
+                                <li>Construção e sobrevivência</li>
+                                <li>Sistema de habilidades</li>
+                                <li>Combate realista</li>
+                                <li>Assentamentos e política</li>
+                                <li>Comunidade e colaboração</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="habilidades" class="pt-5 pb-5 w-100">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text colored fw-bold">Habilidades</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="imagens/jogo/habilidade geral.png" alt="" class="w-100 rounded">
+                        <h3 class="section-title fs-4 pt-1 fw-bold">
+                            Habilidades gerais
+                        </h3>
+                        <p>
+                            Este sistema abrange uma ampla variedade de habilidades essenciais para a sobrevivência e progressão no jogo. Isso inclui habilidades de coleta, como mineração, coleta de recursos naturais e pesca, bem como habilidades de produção, como metalurgia, alquimia e artesanato.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/jogo/habilidade de combate.png" alt="" class="w-100 rounded">
+                        <h3 class="section-title fs-4 pt-1 fw-bold">
+                            Habilidades de combate
+                        </h3>
+                        <p>
+                            O sistema de habilidades de combate abrange tudo relacionado ao combate no mundo de Life is Feudal. Isso inclui habilidades com armas corpo a corpo, armas de longo alcance, defesa, montaria e estratégias de batalha. Os jogadores podem se especializar em diferentes estilos de combate e táticas.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/jogo/habilidade social.png" alt="" class="w-100 rounded">
+                        <h3 class="section-title fs-4 pt-1 fw-bold">
+                            Habilidades sociais
+                        </h3>
+                        <p>
+                            Este sistema envolve habilidades sociais e de interação com outros jogadores. Inclui habilidades como diplomacia, liderança, negociação e gestão de assentamentos. Os jogadores que se destacam nesse sistema podem liderar guildas, formar alianças, estabelecer regras de governança e influenciar a política.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ultimas-noticias" class="pt-5 pb-5 w-100">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 fw-bold">
+                        Últimas <span class="text-white">notícias</span>
+                    </h2>
+                </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-noticias">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#atualizacao" class="fw-bold text-start nav-link text-white section-title active">Atualização 38.1</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#noticia" class="fw-bold text-start nav-link text-white section-title">Notícia 195</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#competicao" class="fw-bold text-start nav-link text-white section-title">Competição</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="atualizacao">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="imagens/jogo/05.jpg" alt="" class="w-100 pb-1">
+                                    <ul>
+                                        <li>
+                                            Foi adicionada a nova habilidade Leave the House, que permite aos jogadores se expulsarem de habitações anteriormente ocupadas
+                                        </li>
+                                        <li>
+                                            Reduzido pela metade o tempo necessário para subir de nível de habilidade (0-30, 30-60 e assim por diante)
+                                        </li>
+                                        <li>
+                                            Defina a velocidade das habilidades de terraformação para dois segundos constantes
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="imagens/jogo/06.jpg" alt="" class="w-100 pb-1">
+                                    <ul>
+                                        <li>
+                                            Redução do tempo de recarga das habilidades do Ídolo do Viajante para duas horas
+                                        </li>
+                                        <li>
+                                            Diminuiu a quantidade de habilidades de escavação necessárias para extrair um único bloco de túnel
+                                        </li>
+                                        <li>
+                                            Desbloqueou a capacidade de usar arcos quando montado
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="imagens/jogo/17.jpg" alt="" class="w-100 pb-1">
+                                    <ul>
+                                        <li>
+                                            Não é mais possível usar armamento que não seja desbloqueado pela árvore de habilidades de Cavalaria enquanto estiver montado
+                                        </li>
+                                        <li>
+                                            Taunt agora é desbloqueado por Huscarl nível 60
+                                        </li>
+                                        <li>
+                                            Argh! requer Berserker nível 30
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="imagens/jogo/21.jpg" alt="" class="w-100 pb-1">
+                                    <ul>
+                                        <li>
+                                            O tempo para os hits se tornarem um combo aumentou para o aplicativo. 5 segundos (o tempo exato depende da arma utilizada)
+                                        </li>
+                                        <li>
+                                            Maior chance de desarmar um oponente com arma de haste enquanto o apara desarmado
+                                        </li>
+                                        <li>
+                                            A chance de o lúcio escorregar de um cavalo inimigo agora diminui em 50% após atingir o nível 60 do Lanceiro
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="noticia">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="imagens/jogo/Arqueiros.jpg" alt="" class="w-100 pb-1">
+                                    <p>
+                                        Queridos feudalistas!
+                                        Em nosso anúncio anterior mencionamos uma atualização final para Life is Feudal: MMO. À medida que chega aos testes finais, gostaríamos de fornecer informações mais detalhadas sobre o que está por vir. Lembre-se de que todas as alterações ainda estão em nossos testes internos e podem estar sujeitas a alterações com base nos resultados do seu feedback.
+                                        Conforme solicitado, as habilidades de terraformação terão sua duração reduzida drasticamente. As decorações premium terão suas receitas alteradas para que possam ser construídas sem Kits de Decorador. O Ídolo do Viajante terá seu tempo de espera reduzido para duas horas. Os custos de receita de armadura serão reduzidos para níveis mais altos (pesada e real).
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="imagens/jogo/06.jpg" alt="" class="w-100 pb-1">
+                                    <p>
+                                        Agora, para a atualização de combate. Você deve ter visto anteriormente a sugestão de arqueiros montados. Na verdade, o Arco Composto agora será desbloqueado no nível 90 de Cavalaria. Será o único arco disponível para uso montado.
+                                        Também estamos transferindo a maioria das armas de arremesso para diferentes classes como arma reserva: facas de arremesso podem ser usadas por lanceiros, machados de arremesso por huscarls e dardos por vanguardas. Também queremos que cada nível da árvore de habilidades de Tiro com Arco (Arqueiro-Arqueiro-Ranger) forneça acesso a arcos e bestas, em vez de eles estarem disponíveis apenas para os dois últimos níveis. Já que estamos no tópico de mudanças gerais
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="imagens/jogo/12.jpg" alt="" class="w-100 pb-1">
+                                    <p>
+                                        Há planos para mudar a armadura disponível para cada classe, a fim de mudar o meta atualmente estabelecido: a cavalaria terá armadura de placas que deverá torná-la ainda mais resistente a danos perfurantes, os lanceiros terão acesso a armaduras de escamas, os espadachins poderão equipar armaduras acolchoadas, e os berserkers agora deverão ter túnicas de cota de malha para melhor velocidade, em vez de placas pesadas. Adicionalmente,
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="imagens/jogo/19.jpg" alt="" class="w-100 pb-1">
+                                    <p>
+                                        Várias armas receberão ajustes no dano causado para acompanhar essas mudanças. Os números exatos e a lista completa de alterações estarão, como sempre, disponíveis assim que a atualização estiver no ar.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="competicao">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="imagens/jogo/02.jpg" alt="" class="w-100 pb-1">
+                                    <p>
+                                        Olá feudalistas!
+                                        À medida que o inverno se aproxima, decidimos preparar um evento especial para esta ocasião. Sabemos muito bem que vocês são um grupo criativo com muitas ideias incríveis, por isso a competição que planejamos testará essas mentes criativas enquanto vocês trabalharão juntos para criar algo especial e memorável.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="imagens/jogo/03.jpg" alt="" class="w-100 pb-1">
+                                    <p>
+                                        O objetivo é utilizar diversos materiais (solo, argila e minerais diversos) em combinação com pequenos objetos móveis, como barris, caixotes, etc., para criar grandes 'desenhos' na superfície do solo. Os desenhos devem ter aproximadamente o tamanho de um único feudo. O tema desses desenhos é, como você provavelmente já adivinhou, o inverno.
+                                        Não há limitações quanto aos materiais que você pode usar. Escolhemos esta forma para lhe proporcionar liberdade criativa, onde você pode usar uma paleta de cores relativamente ampla para criar algo único.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fw-bold mb-3">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="form-campo mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" name="nome" class="form-control" required>
+                            </div>
+                            <div class="form-campo mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-campo mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone(opcional)</label>
+                                <input type="tel" id="celular" name="celular" class="form-control">
+                            </div>
+                            <div class="form-campo mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold text-white">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored fw-bold pt-2">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored fw-bold">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo n 145, bairro boostrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_PT.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

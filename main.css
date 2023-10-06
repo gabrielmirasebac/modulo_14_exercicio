@@ -1,0 +1,73 @@
+.navbar {
+    background-color: #3b3b3b;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #292828;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title{
+    font-family: 'MedievalSharp', cursive;
+}
+
+
+#cabecalho .nav .nav-link, h1{
+    color: #e3e3e3;
+}
+
+#cabecalho .nav img{
+    height: 35px;
+}
+
+.navbar-toggler{
+    background-color: #e3e3e3;
+}
+
+.text-white{
+    color:#ffffff ;
+}
+
+.text-colored{
+    color: rgb(117, 117, 117);
+}
+
+#sobre-o-jogo,
+#ultimas-noticias,
+#fale-conosco button{
+    background-color: #b1b1b1;
+}
+
+.nav-noticias .nav-link.active{
+    background-color: #3b3b3b;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}   
+
+.social-links a{
+    text-decoration: none;
+}
+
+#fale-conosco button:hover{
+    background-color: #444444;
+}
+
+
+@media(max-width: 767px){
+    #cabecalho .nav img{
+        height: 25px;
+    }
+}
+
+@media(min-width: 50px){
+    .carousel-item img{
+        max-width: 100%;
+    }
+}
